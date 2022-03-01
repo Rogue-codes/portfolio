@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+$gradient1:rgba(4, 12, 27, 0.452);
+$gradient2:rgb(16, 1, 20);
+$textColor:white;
+$secondaryColor:#dd1b6b;
+$navColor:#1b242f;
+$headerColor:#444649;
+body{
+  background: #e4e6f7;
+}
+// first page
+main{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient( $gradient1, $gradient2 ),url('https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+  h1{
+    color: $textColor;
+    width: 45%;
+    font-size: 3vw;
+    font-weight: 500;
+    span{
+      color: $secondaryColor;
+    }
+  }
+  button{
+    width: 15%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    align-items: center;
+    background: transparent;
+    border: 3px solid #fff;
+    transition: all .5s linear;
+    &:hover{
+      background: #04c2c9;
+      border: 2px solid #04c2c9;
+    }
+  
+
+    a{
+      text-decoration: none;
+      font-size: 1.5vw;
+      color: $textColor;
+    }
+    .icon{
+      color: $textColor;
+      font-size: 1.5vw;
+    }
+  }
+}
+// end of first page
+
+// nav starts
+nav{
+  width: 100%;
+  height: 10vh;
+  background-color: $navColor;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3%;
+  padding: 2%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 3px solid #04c2c9;
+  a{
+    text-decoration: none;
+    color: $textColor;
+    font-size: 1.2vw;
+    transition: all .5s linear;
+    &:hover{
+      color: $secondaryColor;
+    }
+  }
+}
+// nav end
+
+// About page starts
+.about{
+  width: 100%;
+  height: auto;
+  // background: #e4e6f7;
+  h1{
+    color: $headerColor ;
+    margin-top: 8%;
+    text-align: center;
+    font-size: 3vw;
+  }
+  .flex{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    .left{
+      height: 300px;
+      width: 300px;
+      border-radius: 12px;
+      background-color: #1b242f;
+      &:hover{
+        cursor: pointer;
+        img{
+          filter: sepia();
+        }
+      }
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all .5s linear;
+        border-radius: 12px;
+      }
+    }
+    .right{
+      width: 50%;
+      p{
+        font-size: 2vw;
+        line-height: 150%;
+      }
+    }
+  }
+}
+// About page ends
+
+// Accordion page starts
+.accordion{
+  width: 80%;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  .head{
+    width: 100%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2%;
+    align-items: center;
+    cursor: pointer;
+    p{
+      font-size: 1.5vw;
+      font-weight: 700;
+    }
+  }
+  .foot{
+    font-size: 1.2vw;
+    line-height: 30px;
+    margin-top: 2%;
+    padding-left: 4%;
+    font-weight: 500;
+  }
+}
+// Accordion page ends
+.portfolio{
+  width: 100%;
+  margin-top: 10%;
+  height: auto;
+  position: relative;
+  h1{
+    text-align: center;
+    color: $headerColor ;
+    margin-top: 8%;
+    text-align: center;
+    font-size: 3vw;
+  }
+  .flexBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ul{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 3%;
+      padding-top: 5%;
+      padding-bottom: 2%;
+      list-style-type: none;
+      li{
+        cursor: pointer;
+        &.active{
+          text-decoration: underline;
+          color: #dd1b6b;
+        }
+      }
+    }
+    .container{
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 4%;
+      .cards{
+        width: 30%;
+        margin-bottom: 2%;
+        height: 40vh;
+        position: relative;
+        box-shadow: rgb(37, 37, 37) 0px 20px 30px -10px;
+        border-radius: 12px;
+        background-color: #dd1b6b;
+        .overlay{
+          position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #1b242fe5;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition: .5s ease;
+            display: flex;
+            justify-content: center;
+            gap: 5%;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 12px;
+            h3{
+              color: $secondaryColor;
+              font-size: 1.8vw;
+            }
+            button{
+              padding: 4%;
+              font-size: 1.2vw;
+              color: $secondaryColor;
+              background: transparent;
+              border: 2px solid $secondaryColor;
+              transition: all .5s linear;
+              &:hover{
+                background: #04c2c9;
+                border: 2px solid #04c2c9;
+                color: $textColor;
+              }
+              a{
+                text-decoration: none;
+                color: $textColor;
+              }
+            }
+          } 
+          &:hover .overlay{
+            height: 100%;
+          }
+
+        img{
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        object-fit: cover;
+        position: absolute;
+        }
+      }
+    }
+  }
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;
+    transition: all .5s linear;
+    text-decoration: none;
+    margin-bottom: 5%;
+    button{
+      padding: 1% 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      border: 2px solid $secondaryColor;
+      transition: all .5s linear;
+      background: transparent;
+      font-size: 1vw;
+      cursor: pointer;
+      &:hover{
+        background: #04c2c9;
+        border: 1px solid #04c2c9;
+        a{
+          color: $textColor;
+        }
+      }
+    }
+  }
+}
+.portfolioList{
+  font-size: 1.6vw;
+  font-weight: 500;
+}
+// portfolio section ends
+
+// contact me page starts
+.contact{
+  width: 100%;
+  height: auto;
+  h1{
+    text-align: center;
+    color: $headerColor ;
+    margin-top: 8%;
+    text-align: center;
+    font-size: 3vw;
+  }
+  form{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 2%;
+    input{
+      display: block;
+      width: 80%;
+      height: 10vh;
+      margin-top: 2%;
+      border: solid 1px $secondaryColor;
+      border-radius: 5px;
+      padding-left: 2%;
+      &:focus{
+        outline: 1px solid $secondaryColor;
+      }
+    }
+    textarea{
+      width: 80%;
+      border: solid 1px $secondaryColor;
+      margin-top: 2%;
+      border: none;
+      border-radius: 5px;
+      padding-left: 2%;
+      border: solid 1px $secondaryColor;
+      padding-top: 3%;
+      overflow: auto;
+      &:focus{
+        outline: 1px solid $secondaryColor;
+      }
+    }
+    button{
+      display: block;
+      width: 20%;
+      height: 8vh;
+      margin-top: 2%;
+      background: transparent;
+      border-radius: 10px;
+      cursor: pointer;
+      border: 1px solid $secondaryColor;
+      font-size: 1vw;
+      transition: all .5s linear;
+      &:hover{
+        background: #04c2c9;
+        border: 1px solid #04c2c9;
+      }
+    }
+  }
+}
+.toggle{
+  width: 50px;
+  height: 25px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  background-color: #fff;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .t-icon{
+    width: 15px;
+    height: 15px;
+  }
+  .t-button{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #999;
+    position: absolute;
+    left: 25px;
+  }
+}
