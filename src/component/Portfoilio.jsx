@@ -67,7 +67,7 @@ function Portfoilio() {
                     </figure>
                     <div className="overlay">
                         <h3>{d.name}</h3>
-                        <button><a href={d.link} target="_blank">{d.btn}</a></button>
+                        <button><a href={d.link} target="_blank" rel="noreferrer">{d.btn}</a></button>
                     </div>
                 </div>
                 ))}
