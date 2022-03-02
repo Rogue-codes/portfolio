@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 import { ThemeContext } from './Context';
 import { useContext } from 'react';
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
 function Contact() {
+    useEffect(()=>{
+      Aos.init({duration : 3000})
+    },[])
     const formRef = useRef()
     const [done, isDone] = useState(false)
     const theme = useContext(ThemeContext)
@@ -22,15 +27,15 @@ function Contact() {
       });
     }
   return (
-    <section className='contact' id='contact'>
+    <section className='contact' id='contact' data-aos="fade-right">
         <h1>
             CONTACT ME
         </h1>
 
         <form action="" ref={formRef} onSubmit = {handleSubmit}>
-            <input style={{backgroundColor : darkMode && "#333"}} type="text" name='userName' placeholder='Your name' />
+            <input style={{backgroundColor : darkMode && "#333"}} type="text" name='userName' placeholder='Your name' required />
             <input style={{backgroundColor : darkMode && "#333"}} type="text" name="userSubject" id="" placeholder='Subject' />
-            <input style={{backgroundColor : darkMode && "#333"}} type="email" name="userEmail" id="" placeholder='Your Email'/>
+            <input style={{backgroundColor : darkMode && "#333"}} type="email" name="userEmail" id="" placeholder='Your Email' required/>
             <textarea style={{backgroundColor : darkMode && "#333"}} name="message" id="" cols="30" rows="10" placeholder='Your Message'></textarea>
             <button style={{color : darkMode && "#dd1b6b"}}>Submit</button>
             {done && 'Your Mail has been sent'}

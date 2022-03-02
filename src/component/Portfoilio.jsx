@@ -4,8 +4,13 @@ import PortfolioList from '../portfolioList/PortfolioList'
 import {All,Vanilla,Reactor} from '../dat'
 import { useEffect } from 'react'
 import { ThemeContext } from './Context'
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
 function Portfoilio() {
+    useEffect(()=>{
+        Aos.init({duration : 3000})
+      },[])
     const [selected, setSelected] = useState('all')
     const [data, setData] = useState([])
     const theme = useContext(ThemeContext)
@@ -59,7 +64,7 @@ function Portfoilio() {
                 ))}
             </ul>
 
-            <div className="container">
+            <div className="container" data-aos="fade-up">
                 {data.map((d)=>(
                     <div className="cards">
                     <figure>

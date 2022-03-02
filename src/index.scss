@@ -36,9 +36,9 @@ main{
   h1{
     @media (max-width:480px) {
       font-size: 1.5rem;
-      text-align: left;
+      text-align: center;
       width: 100%;
-      padding-left: 4%;
+      padding: 2%;
     }
     color: $textColor;
     width: 45%;
@@ -118,6 +118,7 @@ nav{
     @media (max-width:480px) {
       display: block;
       font-size: 2rem;
+      color: $textColor;
     }
   }
   .Animate{
