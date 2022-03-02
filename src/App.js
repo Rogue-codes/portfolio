@@ -20,7 +20,7 @@ function App() {
       <Accordion/>
       <Portfoilio/>
       <Contact/>
-      {/* <Toggle/> */} 
+      <Toggle/> 
     </div>
   );
 }
