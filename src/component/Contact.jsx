@@ -37,7 +37,7 @@ function Contact() {
             <input style={{backgroundColor : darkMode && "#333"}} type="text" name="userSubject" id="" placeholder='Subject' />
             <input style={{backgroundColor : darkMode && "#333"}} type="email" name="userEmail" id="" placeholder='Your Email' required/>
             <textarea style={{backgroundColor : darkMode && "#333"}} name="message" id="" cols="30" rows="10" placeholder='Your Message'></textarea>
-            <button style={{color : darkMode && "#dd1b6b"}}>Submit</button>
+            <button style={{color : darkMode && "#dd1b6b"}}>Submit</button><br />
             {done && 'Your Mail has been sent'}
         </form>
     </section>
