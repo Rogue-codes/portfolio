@@ -82,6 +82,13 @@ export const All = [
         name:'Blood money in tech',
         link:'https://bmit.netlify.app/',
         btn:"View site"
+    },
+    {
+        id:13,
+        img:"orange.png",
+        name:'Orange Bank',
+        link:'https://orangebank.netlify.app/',
+        btn:"View site"
     }
 
 ]
@@ -158,6 +165,13 @@ export const Reactor = [
         img:"netflix.png",
         name:'Netflix(homepage clone)',
         link:'https://netflixx-homme-clone.netlify.app/',
+        btn:"View site"
+    },
+    {
+        id:2,
+        img:"orange.png",
+        name:'Orange Bank',
+        link:'https://orangebank.netlify.app/',
         btn:"View site"
     }
 
