@@ -89,6 +89,20 @@ export const All = [
         name:'Orange Bank',
         link:'https://orangebank.netlify.app/',
         btn:"View site"
+    },
+    {
+        id:14,
+        img:"shop.png",
+        name:'Shop Lite',
+        link:'https://shoplite.netlify.app/',
+        btn:"View site"
+    },
+    {
+        id:15,
+        img:"loan2.png",
+        name:'Fine Loan',
+        link:'https://fineloan.netlify.app/',
+        btn:"View site"
     }
 
 ]
@@ -172,6 +186,20 @@ export const Reactor = [
         img:"orange.png",
         name:'Orange Bank',
         link:'https://orangebank.netlify.app/',
+        btn:"View site"
+    },
+    {
+        id:3,
+        img:"shop.png",
+        name:'Shop Lite',
+        link:'https://shoplite.netlify.app/',
+        btn:"View site"
+    },
+    {
+        id:4,
+        img:"loan2.png",
+        name:'Fine Loan',
+        link:'https://fineloan.netlify.app/',
         btn:"View site"
     }
 
