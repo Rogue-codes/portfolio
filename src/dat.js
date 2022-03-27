@@ -64,41 +64,34 @@ export const All = [
     },
     {
         id:10,
-        img:"db.png",
-        name:'Desert Bank',
-        link:'https://desertbank.netlify.app/',
-        btn:"View site"
-    },
-    {
-        id:10,
         img:"loan.png",
         name:'Afri loan',
         link:'https://afriloan.netlify.app/',
         btn:"View site"
     },
     {
-        id:12,
+        id:11,
         img:"bmit.png",
         name:'Blood money in tech',
         link:'https://bmit.netlify.app/',
         btn:"View site"
     },
     {
-        id:13,
+        id:12,
         img:"orange.png",
         name:'Orange Bank',
         link:'https://orangebank.netlify.app/',
         btn:"View site"
     },
     {
-        id:14,
+        id:13,
         img:"shop.png",
         name:'Shop Lite',
         link:'https://shoplite.netlify.app/',
         btn:"View site"
     },
     {
-        id:15,
+        id:14,
         img:"loan2.png",
         name:'Fine Loan',
         link:'https://fineloan.netlify.app/',
@@ -162,13 +155,6 @@ export const Vanilla = [
         img:"techpt.png",
         name:'TechPoint',
         link:'https://techypoint.netlify.app/',
-        btn:"View site"
-    },
-    {
-        id:10,
-        img:"db.png",
-        name:'Desert Bank',
-        link:'https://desertbank.netlify.app/',
         btn:"View site"
     }
 ]
