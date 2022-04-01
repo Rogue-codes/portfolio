@@ -9,7 +9,7 @@ import "aos/dist/aos.css"
 
 function Portfoilio() {
     useEffect(()=>{
-        Aos.init({duration : 3000})
+        Aos.init({duration : 500})
       },[])
     const [selected, setSelected] = useState('all')
     const [data, setData] = useState([])

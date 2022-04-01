@@ -9,7 +9,7 @@ import "aos/dist/aos.css"
 
 function Contact() {
     useEffect(()=>{
-      Aos.init({duration : 3000})
+      Aos.init({duration : 500})
     },[])
     const formRef = useRef()
     const [done, isDone] = useState(false)

@@ -64,37 +64,44 @@ export const All = [
     },
     {
         id:10,
-        img:"loan.png",
-        name:'Afri loan',
-        link:'https://afriloan.netlify.app/',
-        btn:"View site"
-    },
-    {
-        id:11,
         img:"bmit.png",
         name:'Blood money in tech',
         link:'https://bmit.netlify.app/',
         btn:"View site"
     },
     {
-        id:12,
+        id:11,
         img:"orange.png",
         name:'Orange Bank',
         link:'https://orangebank.netlify.app/',
         btn:"View site"
     },
     {
-        id:13,
+        id:12,
         img:"shop.png",
         name:'Shop Lite',
         link:'https://shoplite.netlify.app/',
         btn:"View site"
     },
     {
-        id:14,
+        id:13,
         img:"loan2.png",
         name:'Fine Loan',
         link:'https://fineloan.netlify.app/',
+        btn:"View site"
+    },
+    {
+        id:14,
+        img:"movii.png",
+        name:'Rogue Movie',
+        link:'https://rogue-movies.netlify.app/',
+        btn:"View site"
+    },
+    {
+        id:15,
+        img:"plan.png",
+        name:'Planner',
+        link:'https://planmybudget.netlify.app/',
         btn:"View site"
     }
 
@@ -186,6 +193,20 @@ export const Reactor = [
         img:"loan2.png",
         name:'Fine Loan',
         link:'https://fineloan.netlify.app/',
+        btn:"View site"
+    },
+    {
+        id:5,
+        img:"movii.png",
+        name:'Rogue Movie',
+        link:'https://rogue-movies.netlify.app/',
+        btn:"View site"
+    },
+    {
+        id:6,
+        img:"plan.png",
+        name:'Planner',
+        link:'https://planmybudget.netlify.app/',
         btn:"View site"
     }
 
