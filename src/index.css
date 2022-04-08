@@ -1,0 +1,752 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:wght@400;500;600;700;800;900&family=Barlow:wght@300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=Roboto+Condensed&family=Rubik+Wet+Paint&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #e4e6f7;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 12, 27, 0.452)), to(#100114)), url("https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background: linear-gradient(rgba(4, 12, 27, 0.452), #100114), url("https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main h1 {
+  font-family: 'Rubik Wet Paint', cursive;
+  text-align: center;
+  color: white;
+  width: 70%;
+  font-size: 4vw;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  main h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+  }
+}
+
+main h1 span {
+  color: #dd1b6b;
+  font-family: 'Rubik Wet Paint', cursive;
+}
+
+main button {
+  width: 15%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 8%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: transparent;
+  border: 3px solid #fff;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+}
+
+@media (max-width: 480px) {
+  main button {
+    width: 80%;
+    height: 10%;
+  }
+}
+
+main button:hover {
+  background: #04c2c9;
+  border: 2px solid #04c2c9;
+}
+
+main button a {
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  main button a {
+    font-size: 1rem;
+  }
+}
+
+main button .icon {
+  color: white;
+  font-size: 1.5vw;
+}
+
+@media (max-width: 480px) {
+  main button .icon {
+    font-size: 1rem;
+  }
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  background-color: #1b242f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3%;
+  padding: 2%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 3px solid #04c2c9;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2vw;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+}
+
+nav a:hover {
+  color: #dd1b6b;
+}
+
+@media (max-width: 480px) {
+  nav a {
+    display: none;
+  }
+}
+
+nav .icon {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  nav .icon {
+    display: block;
+    font-size: 2rem;
+    color: white;
+  }
+}
+
+nav .Animate {
+  display: none;
+  width: 100%;
+  height: 50vh;
+  background-color: #333;
+  position: absolute;
+  -webkit-box-shadow: 2px 2px 4px grey;
+          box-shadow: 2px 2px 4px grey;
+  margin-left: -2%;
+  z-index: 60;
+}
+
+@media (max-width: 480px) {
+  nav .Animate {
+    display: block;
+  }
+}
+
+nav .Animate a {
+  display: block;
+  font-size: 1.2rem;
+  margin: 2%;
+  padding: 2% 0%;
+  border-bottom: 1px solid #fff;
+}
+
+nav .firstAimate {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background-color: #010214a6;
+}
+
+@media (max-width: 480px) {
+  nav .firstAimate {
+    display: block;
+  }
+}
+
+.about {
+  width: 100%;
+  height: auto;
+}
+
+.about h1 {
+  color: #444649;
+  margin-top: 8%;
+  text-align: center;
+  font-size: 3vw;
+}
+
+@media (max-width: 480px) {
+  .about h1 {
+    font-size: 2rem;
+  }
+}
+
+.about .flex {
+  margin-top: 5%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 480px) {
+  .about .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.about .flex .left {
+  height: 300px;
+  width: 300px;
+  border-radius: 12px;
+  background-color: #1b242f;
+}
+
+@media (max-width: 480px) {
+  .about .flex .left {
+    margin-bottom: 4%;
+  }
+}
+
+.about .flex .left:hover {
+  cursor: pointer;
+}
+
+.about .flex .left:hover img {
+  -webkit-filter: sepia();
+          filter: sepia();
+}
+
+.about .flex .left img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+  border-radius: 12px;
+}
+
+.about .flex .right {
+  width: 50%;
+}
+
+@media (max-width: 480px) {
+  .about .flex .right {
+    width: 100%;
+    padding: 2%;
+  }
+}
+
+.about .flex .right p {
+  font-size: 2vw;
+  line-height: 150%;
+}
+
+@media (max-width: 480px) {
+  .about .flex .right p {
+    font-size: 1rem;
+  }
+}
+
+.accordion {
+  width: 80%;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 480px) {
+  .accordion {
+    width: 100%;
+    padding: 2%;
+  }
+}
+
+.accordion .head {
+  width: 100%;
+  margin-top: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 2%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.accordion .head p {
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .accordion .head p {
+    font-size: 1rem;
+  }
+}
+
+.accordion .foot {
+  font-size: 1.2vw;
+  line-height: 30px;
+  margin-top: 2%;
+  padding-left: 4%;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .accordion .foot {
+    font-size: .8rem;
+  }
+}
+
+.portfolio {
+  width: 100%;
+  margin-top: 10%;
+  height: auto;
+  position: relative;
+}
+
+.portfolio h1 {
+  text-align: center;
+  color: #444649;
+  margin-top: 8%;
+  text-align: center;
+  font-size: 3vw;
+}
+
+@media (max-width: 480px) {
+  .portfolio h1 {
+    font-size: 2rem;
+  }
+}
+
+.portfolio .flexBox {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.portfolio .flexBox ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 3%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  list-style-type: none;
+}
+
+.portfolio .flexBox ul li {
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .portfolio .flexBox ul li {
+    font-size: .8rem;
+  }
+}
+
+.portfolio .flexBox ul li.active {
+  text-decoration: underline;
+  color: #dd1b6b;
+}
+
+.portfolio .flexBox .container {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 4%;
+}
+
+@media (max-width: 480px) {
+  .portfolio .flexBox .container {
+    height: auto;
+  }
+}
+
+.portfolio .flexBox .container .cards {
+  width: 30%;
+  margin-bottom: 2%;
+  height: 40vh;
+  position: relative;
+  -webkit-box-shadow: #252525 0px 20px 30px -10px;
+          box-shadow: #252525 0px 20px 30px -10px;
+  border-radius: 12px;
+  background-color: #dd1b6b;
+}
+
+@media (max-width: 480px) {
+  .portfolio .flexBox .container .cards {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10%;
+  }
+}
+
+.portfolio .flexBox .container .cards .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1b242fe5;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 12px;
+}
+
+.portfolio .flexBox .container .cards .overlay h3 {
+  color: #dd1b6b;
+  font-size: 1.8vw;
+}
+
+@media (max-width: 480px) {
+  .portfolio .flexBox .container .cards .overlay h3 {
+    font-size: 1rem;
+  }
+}
+
+.portfolio .flexBox .container .cards .overlay button {
+  padding: 4%;
+  font-size: 1.2vw;
+  color: #dd1b6b;
+  background: transparent;
+  border: 2px solid #dd1b6b;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+}
+
+.portfolio .flexBox .container .cards .overlay button:hover {
+  background: #04c2c9;
+  border: 2px solid #04c2c9;
+  color: white;
+}
+
+.portfolio .flexBox .container .cards .overlay button a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .portfolio .flexBox .container .cards .overlay button a {
+    font-size: .8rem;
+  }
+}
+
+.portfolio .flexBox .container .cards:hover .overlay {
+  height: 100%;
+}
+
+.portfolio .flexBox .container .cards img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+}
+
+.portfolio a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2vw;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+  text-decoration: none;
+  margin-bottom: 5%;
+}
+
+.portfolio a button {
+  padding: 1% 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 12px;
+  border: 2px solid #dd1b6b;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+  background: transparent;
+  font-size: 1vw;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .portfolio a button {
+    font-size: .8rem;
+    padding: 2% 5%;
+  }
+}
+
+.portfolio a button:hover {
+  background: #04c2c9;
+  border: 1px solid #04c2c9;
+}
+
+.portfolio a button:hover a {
+  color: white;
+}
+
+.portfolioList {
+  font-size: 1.6vw;
+  font-weight: 500;
+}
+
+.contact {
+  width: 100%;
+  height: auto;
+}
+
+.contact h1 {
+  text-align: center;
+  color: #444649;
+  margin-top: 8%;
+  text-align: center;
+  font-size: 3vw;
+}
+
+@media (max-width: 480px) {
+  .contact h1 {
+    font-size: 2rem;
+    padding-top: 2%;
+    padding-bottom: 6%;
+  }
+}
+
+.contact form {
+  width: 80%;
+  margin: auto;
+  height: auto;
+  padding: 2%;
+}
+
+@media (max-width: 480px) {
+  .contact form {
+    width: 100%;
+    padding-left: 4%;
+  }
+}
+
+.contact form input {
+  display: block;
+  width: 80%;
+  height: 10vh;
+  margin-top: 2%;
+  border: solid 1px #dd1b6b;
+  border-radius: 5px;
+  padding-left: 2%;
+}
+
+@media (max-width: 480px) {
+  .contact form input {
+    width: 90%;
+  }
+}
+
+.contact form input:focus {
+  outline: 1px solid #dd1b6b;
+}
+
+.contact form textarea {
+  width: 80%;
+  border: solid 1px #dd1b6b;
+  margin-top: 2%;
+  border: none;
+  border-radius: 5px;
+  padding-left: 2%;
+  border: solid 1px #dd1b6b;
+  padding-top: 3%;
+  overflow: auto;
+}
+
+@media (max-width: 480px) {
+  .contact form textarea {
+    width: 90%;
+  }
+}
+
+.contact form textarea:focus {
+  outline: 1px solid #dd1b6b;
+}
+
+.contact form button {
+  display: block;
+  width: 20%;
+  height: 8vh;
+  margin-top: 2%;
+  background: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #dd1b6b;
+  font-size: 1vw;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+}
+
+@media (max-width: 480px) {
+  .contact form button {
+    width: 30%;
+    font-size: 0.8rem;
+  }
+}
+
+.contact form button:hover {
+  background: #04c2c9;
+  border: 1px solid #04c2c9;
+}
+
+.toggle {
+  width: 50px;
+  height: 25px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  background-color: #fff;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.toggle .t-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.toggle .t-button {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #999;
+  position: absolute;
+  left: 25px;
+}
+/*# sourceMappingURL=index.css.map */

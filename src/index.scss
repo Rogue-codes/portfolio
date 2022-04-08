@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@400;500;600;700;800;900&family=Barlow:wght@300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=Roboto+Condensed&family=Rubik+Wet+Paint&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -40,12 +40,15 @@ main{
       width: 100%;
       padding: 2%;
     }
+    font-family: 'Rubik Wet Paint', cursive;
+    text-align: center;
     color: $textColor;
-    width: 45%;
-    font-size: 3vw;
+    width: 70%;
+    font-size: 4vw;
     font-weight: 500;
     span{
       color: $secondaryColor;
+      font-family: 'Rubik Wet Paint', cursive;
     }
   }
   button{
