@@ -80,7 +80,7 @@ function Portfoilio() {
         </div>
 
 
-        <a href="/OSUJI.pdf" download><button style={{color: darkMode && "#dd1b6b"}}>Download My Resume</button></a>
+        <a href="/daniel.pdf" download><button style={{color: darkMode && "#dd1b6b"}}>Download My Resume</button></a>
     </section>
   )
 }

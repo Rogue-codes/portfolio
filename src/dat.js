@@ -103,6 +103,13 @@ export const All = [
         name:'Planner',
         link:'https://planmybudget.netlify.app/',
         btn:"View site"
+    },
+    {
+        id:15,
+        img:"tes.png",
+        name:'Tes-HR',
+        link:'https://tess-hr.netlify.app/',
+        btn:"View site"
     }
 
 ]
@@ -207,6 +214,13 @@ export const Reactor = [
         img:"plan.png",
         name:'Planner',
         link:'https://planmybudget.netlify.app/',
+        btn:"View site"
+    },
+    {
+        id:7,
+        img:"tes.png",
+        name:'Tes-HR',
+        link:'https://tess-hr.netlify.app/',
         btn:"View site"
     }
 

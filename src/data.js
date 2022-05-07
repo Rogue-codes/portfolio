@@ -14,7 +14,7 @@ export const Data = [
         I enjoy building fun designs and time-saving projects on Github.
         
         
-        Currently, I’m focused on moving to the next stage of my career and achieving mid-level developer status.
+        Currently, I’m focused on moving to the next stage of my career and achieving senior-level developer status.
         
         Thanks for reading 😊
         
@@ -28,6 +28,6 @@ export const Data = [
     },
     {
         question:'SKILLS',
-        answer:`I’m familiar with technologies such as  JAVASCRIPT, REACT, REDUX, NEXTJS, VUE.js, CSS, SCSS, FRAMER MOTION, CSS-IN-JS, FIREBASE, ...`
+        answer:`JAVASCRIPT, REACT, REDUX, NEXTJS, VUE.js, CSS, SCSS, STYLED-COMPONENTS,FIREBASE, ...`
     }
 ]
