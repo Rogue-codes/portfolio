@@ -110,6 +110,13 @@ export const All = [
         name:'Tes-HR',
         link:'https://tess-hr.netlify.app/',
         btn:"View site"
+    },
+    {
+        id:16,
+        img:"health.png",
+        name:'Health Pro',
+        link:'https://healthpro.netlify.app/',
+        btn:"View site"
     }
 
 ]
@@ -221,6 +228,13 @@ export const Reactor = [
         img:"tes.png",
         name:'Tes-HR',
         link:'https://tess-hr.netlify.app/',
+        btn:"View site"
+    },
+    {
+        id:8,
+        img:"health.png",
+        name:'Health Pro',
+        link:'https://healthpro.netlify.app/',
         btn:"View site"
     }
 

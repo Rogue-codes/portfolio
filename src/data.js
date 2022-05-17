@@ -14,7 +14,7 @@ export const Data = [
         I enjoy building fun designs and time-saving projects on Github.
         
         
-        Currently, I’m focused on moving to the next stage of my career and achieving senior-level developer status.
+        Currently, I’m focused on moving to the next stage of my career and achieving that senior-level developer status.
         
         Thanks for reading 😊
         
