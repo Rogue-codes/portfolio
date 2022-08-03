@@ -19,15 +19,5 @@ export const Data = [
         Thanks for reading 😊
         
         `,
-    },
-    {
-        question:'EXPERIENCE',
-        answer:`Current: FRONTEND ENGINEER SIGNAL ALLIANCE TECHNOLOGY HOLDING
-        
-        `
-    },
-    {
-        question:'SKILLS',
-        answer:`JAVASCRIPT, REACT, REDUX, NEXTJS, VUE.js, CSS, SCSS, STYLED-COMPONENTS,FIREBASE, ...`
     }
 ]

@@ -54,10 +54,93 @@ function Portfoilio() {
   return (
     <section className='portfolio' id='portfolio'>
         <h1>
-            PROJECTS
+            Some Things I've Built
         </h1>
 
-        <div className="flexBox">
+        <div className="container">
+            <a href="https://sa-market.netlify.app/" className="left">
+                <div>
+                    <div className="shadow"></div>
+                    <img src="/samarket.png" alt="" />
+                </div>
+            </a>
+            <div className="right">
+                <span className="featured"><p>Featured Project</p></span>
+                <h1>SA-Market</h1>
+                <div className="about">
+                    <p>                
+                        A fully Functional MERN-STACK E-commerce Application Created with Mongo Db, express, node, and React
+                    </p> <br />
+                    <p>
+                        Built the Client side of the Application with React and ReduxToolkit
+                    </p>
+                </div>
+                <div className="lang">
+                    <p>React</p>
+                    <p>ReduxToolkit</p>
+                    <p>Node</p>
+                    <p>Express</p>
+                    <p>Mongo DB</p>
+                    <p>Styled-components</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="container2">
+            <div className="right">
+                <span className="featured"><p>Featured Project</p></span>
+                <h1>Health Pro</h1>
+                <div className="about">
+                    <p>                
+                    A Hospital management Application that can admit and Discharge patients in real time. This project was built using React and Redux-Toolkit for state management.
+                    </p> <br />
+                </div>
+                <div className="lang">
+                    <p>React</p>
+                    <p>Redux</p>
+                    <p>CHARTJS</p>
+                    <p>Styled-components</p>
+                </div>
+            </div>
+
+            <a href="https://sa-market.netlify.app/" className="left">
+                <div>
+                    <div className="shadow"></div>
+                    <img src="/health.png" alt="" />
+                </div>
+            </a>
+        </div>
+
+        <div className="container">
+            <a href="https://sa-market.netlify.app/" className="left">
+                <div>
+                    <div className="shadow"></div>
+                    <img src="/samarket.png" alt="" />
+                </div>
+            </a>
+            <div className="right">
+                <span className="featured"><p>Featured Project</p></span>
+                <h1>SA-Market</h1>
+                <div className="about">
+                    <p>                
+                        A fully Functional MERN-STACK E-commerce Application Created with Mongo Db, express, node, and React
+                    </p> <br />
+                    <p>
+                        Built the Client side of the Application with React and ReduxToolkit
+                    </p>
+                </div>
+                <div className="lang">
+                    <p>React</p>
+                    <p>ReduxToolkit</p>
+                    <p>Node</p>
+                    <p>Express</p>
+                    <p>Mongo DB</p>
+                    <p>Styled-components</p>
+                </div>
+            </div>
+        </div>
+
+        {/* <div className="flexBox">
             <ul>
                 {List.map((item)=>(
                     <PortfolioList title={item.title} active={selected===item.id} setSelected={setSelected} id={item.id}/>
@@ -77,10 +160,10 @@ function Portfoilio() {
                 </div>
                 ))}
             </div>
-        </div>
+        </div> */}
 
 
-        <a href="/daniel.pdf" download><button style={{color: darkMode && "#dd1b6b"}}>Download My Resume</button></a>
+        {/* <a href="/daniel.pdf" download><button style={{color: darkMode && "#dd1b6b"}}>Download My Resume</button></a> */}
     </section>
   )
 }

@@ -3,6 +3,7 @@ import About from "./component/About";
 import Accordion from "./component/Accordion";
 import Contact from "./component/Contact";
 import { ThemeContext } from "./component/Context";
+import Experience from "./component/Experience";
 import Home from "./component/Home";
 import Nav from "./component/Nav";
 import Portfoilio from "./component/Portfoilio";
@@ -13,11 +14,12 @@ function App() {
   const theme = useContext(ThemeContext)
   const darkMode = theme.state.darkMode
   return (
-    <div style={{backgroundColor: darkMode ? '#222' : 'white', color: darkMode && 'white'}} className="App">
-      <Home/>
+    <div style={{backgroundColor: darkMode ? '#222' : '0a192f', color: darkMode && 'white'}} className="App">
       <Nav/>
+      <Home/>
       <About/>
       <Accordion/>
+      <Experience/>
       <Portfoilio/>
       <Contact/>
       <Toggle/> 

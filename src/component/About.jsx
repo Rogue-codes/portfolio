@@ -8,14 +8,14 @@ function About() {
   },[])
   return (
     <section className='about' id='abt'>
-        <h1>ABOUT</h1>
-
         <div className="flex">
             <div className="left" data-aos="fade-right">
+              <div className="shadow"></div>
                 <img src="/PP.png" alt="" />
             </div>
 
             <div className="right" data-aos="fade-left">
+            <h1>ABOUT ME</h1>
             <p>
                 Hello, I'm <span>Osuji Nnamdi Daniel</span> 🙂
                 I’m a Front End Developer and with strong Proficiency in REACT.js from Nigeria. I build websites with a focus on responsiveness, accessibility and pleasing aesthetics.
