@@ -4,6 +4,7 @@ import Accordion from "./component/Accordion";
 import Contact from "./component/Contact";
 import { ThemeContext } from "./component/Context";
 import Experience from "./component/Experience";
+import GetInTouch from "./component/GetInTouch";
 import Home from "./component/Home";
 import Nav from "./component/Nav";
 import Portfoilio from "./component/Portfoilio";
@@ -21,8 +22,9 @@ function App() {
       <Accordion/>
       <Experience/>
       <Portfoilio/>
-      <Contact/>
-      <Toggle/> 
+      <GetInTouch/>
+      {/* <Contact/> */}
+      {/* <Toggle/>  */}
     </div>
   );
 }

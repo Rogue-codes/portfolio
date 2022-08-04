@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'; 
 import Aos from 'aos'
 import "aos/dist/aos.css"
+import Social from './Social';
 
 function Home() {
     useEffect(()=>{
@@ -11,8 +12,12 @@ function Home() {
   return (
     <main id='home'>
         <p>Hi My Name is</p>
-        <h1 data-aos="fade-up"><span>Osuji Nnamdi Daniel</span>. <br /> I'm a Frontend Web Developer</h1>
+        <h1 data-aos="fade-up"><span>Osuji Nnamdi Daniel</span>. <br /> I build things for the web.</h1>
+        <span className="shortDesc">
+          I’m a Front-End engineer specializing in building exceptional digital experiences. Currently, I’m focused on building accessible, Enterprise Solutions at SATH.
+        </span>
         <button className='btn-border-drawing' data-aos="fade-up"><a href="#portfolio">View my works</a><FontAwesomeIcon icon={faArrowRight} className='icon'></FontAwesomeIcon></button>
+        <Social/>
     </main>
   )
 }

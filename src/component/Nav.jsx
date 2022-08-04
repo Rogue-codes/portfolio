@@ -30,16 +30,21 @@ function Nav() {
 
   return (
     <nav>
+      <div className="left">
         <a href="#home">HOME</a>
         <a href="#abt">ABOUT</a>
         <a href="#portfolio">PORTFOLIO</a>
         <a href="#contact">CONTACT</a>
-        <a href="https://github.com/Rogue-codes/">GIT HUB</a>
+      </div>
+
+      <div className="right">
+        <a href="/daniel.pdf" download><button>Resume</button></a>
+      </div>
+
         <span className="icon">
               <FontAwesomeIcon icon={faBars}
               onClick= {() => setShowMenu(!showMenu)}/>
         </span>
-
         {
           maskTransitions((styles, item) => item && <animated.div style={styles} className='firstAimate' onClick = {()=> setShowMenu(false)}>
 
