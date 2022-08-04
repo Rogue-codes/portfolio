@@ -38,7 +38,7 @@ function Nav() {
       </div>
 
       <div className="right">
-        <a href="/daniel.pdf" download><button>Resume</button></a>
+        <a href="/daniel.pdf" download><button className='button'>Resume</button></a>
       </div>
 
         <span className="icon">
@@ -57,7 +57,7 @@ function Nav() {
             <a href="#abt" onClick = {()=> setShowMenu(false)}>ABOUT</a>
             <a href="#portfolio" onClick = {()=> setShowMenu(false)}>PORTFOLIO</a>
             <a href="#contact" onClick = {()=> setShowMenu(false)}>CONTACT</a>
-            <a href="https://github.com/Rogue-codes/" onClick = {()=> setShowMenu(false)}>GIT HUB</a>
+            <a href="/daniel.pdf" download><button className='button-mobile'>Resume</button></a>
           </animated.div>)
         }
     </nav>
