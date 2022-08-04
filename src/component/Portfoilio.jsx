@@ -4,6 +4,7 @@ import PortfolioList from '../portfolioList/PortfolioList'
 import {All,Vanilla,Reactor} from '../dat'
 import { useEffect } from 'react'
 import { ThemeContext } from './Context'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Aos from 'aos'
 import "aos/dist/aos.css"
 
@@ -51,6 +52,8 @@ function Portfoilio() {
         }
 
     },[selected])
+
+    const [isClicked, setIsClicked] = useState(false)
   return (
     <section className='portfolio' id='portfolio'>
         <h1>
@@ -115,18 +118,17 @@ function Portfoilio() {
             <a href="https://sa-market.netlify.app/" className="left">
                 <div>
                     <div className="shadow"></div>
-                    <img src="/samarket.png" alt="" />
+                    <img src="/todo.png" alt="" />
                 </div>
             </a>
             <div className="right">
                 <span className="featured"><p>Featured Project</p></span>
-                <h1>SA-Market</h1>
+                <h1>MERN-STACK Todo App</h1>
                 <div className="about">
                     <p>                
-                        A fully Functional MERN-STACK E-commerce Application Created with Mongo Db, express, node, and React
-                    </p> <br />
-                    <p>
-                        Built the Client side of the Application with React and ReduxToolkit
+                        A Todo Application that helps you keep track of your daily task  in real time. 
+                        The Application helps you filter through your task based on the task that are 
+                        pending, Completed, due today, due tommorrow and passed due 
                     </p>
                 </div>
                 <div className="lang">
@@ -140,6 +142,81 @@ function Portfoilio() {
             </div>
         </div>
 
+
+        <div className={isClicked ? "others auto" : "others"}>
+            <div className="cards">
+                <h1>Integrating Algolia Search with WordPress Multisite</h1>
+                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                
+            </div>
+
+            <div className="cards">
+                <h1>Integrating Algolia Search with WordPress Multisite</h1>
+                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                
+            </div>
+
+            <div className="cards">
+                <h1>Integrating Algolia Search with WordPress Multisite</h1>
+                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                
+            </div>
+
+            <div className="cards">
+                <h1>Integrating Algolia Search with WordPress Multisite</h1>
+                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                
+            </div>
+
+            <div className="cards">
+                <h1>Integrating Algolia Search with WordPress Multisite</h1>
+                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                
+            </div>
+
+            <div className="cards">
+                <h1>Integrating Algolia Search with WordPress Multisite</h1>
+                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                
+            </div>
+
+            <div className="cards">
+                <h1>Integrating Algolia Search with WordPress Multisite</h1>
+                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                
+            </div>
+
+            <div className="cards">
+                <h1>Integrating Algolia Search with WordPress Multisite</h1>
+                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                
+            </div>
+
+            <div className="cards">
+                <h1>Integrating Algolia Search with WordPress Multisite</h1>
+                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                
+            </div>
+
+            <div className="cards">
+                <h1>Integrating Algolia Search with WordPress Multisite</h1>
+                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                
+            </div>
+
+            <div className="cards">
+                <h1>Integrating Algolia Search with WordPress Multisite</h1>
+                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                
+            </div>
+
+            <div className="cards">
+                <h1>Integrating Algolia Search with WordPress Multisite</h1>
+                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                
+            </div>
+        </div>
+        <button className='show' onClick={() =>setIsClicked(!isClicked)}>{isClicked ? 'Show Less' : 'Show More'}</button>
         {/* <div className="flexBox">
             <ul>
                 {List.map((item)=>(
