@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import { CODEWARE, SATH, USA } from '../experience'
 import ExpList from './ExperienceList/ExpList'
-
+import Aos from 'aos'
+import "aos/dist/aos.css"
+ 
 function Experience() {
+    useEffect(()=>{
+        Aos.init({duration : 3000})
+    },[])
     const [data,setData] = useState([])
     const [selected, setSelected] = useState('sath')
     const List =[
@@ -40,7 +45,7 @@ function Experience() {
         }
     },[selected])
   return (
-    <div className='experience'>
+    <div className='experience' data-aos="fade-up">
         
         <div className="expContainer">
             {

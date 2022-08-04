@@ -8,7 +8,7 @@ import { FolderOutlined,GitHub,Link } from '@material-ui/icons'
 
 function Portfoilio() {
     useEffect(()=>{
-        Aos.init({duration : 500})
+        Aos.init({duration : 3000})
       },[])
     const theme = useContext(ThemeContext)
     const darkMode = theme.state.darkMode
@@ -20,13 +20,13 @@ function Portfoilio() {
             </h1>
 
             <div className="container">
-                <a href="https://sa-market.netlify.app/" className="left">
+                <a href="https://sa-market.netlify.app/" className="left" data-aos="fade-right">
                     <div>
                         <div className="shadow"></div>
                         <img src="/samarket.png" alt="" />
                     </div>
                 </a>
-                <div className="right">
+                <div className="right" data-aos="fade-left">
                     <span className="featured"><p>Featured Project</p></span>
                     <h1>SA-Market</h1>
                     <div className="about">
@@ -49,7 +49,7 @@ function Portfoilio() {
             </div>
 
             <div className="container2">
-                <div className="right">
+                <div className="right" data-aos="fade-right">
                     <span className="featured"><p>Featured Project</p></span>
                     <h1>Health Pro</h1>
                     <div className="about">
@@ -65,7 +65,7 @@ function Portfoilio() {
                     </div>
                 </div>
 
-                <a href="https://sa-market.netlify.app/" className="left">
+                <a href="https://sa-market.netlify.app/" className="left" data-aos="fade-left">
                     <div>
                         <div className="shadow"></div>
                         <img src="/health.png" alt="" />
@@ -74,13 +74,13 @@ function Portfoilio() {
             </div>
 
             <div className="container">
-                <a href="https://sa-market.netlify.app/" className="left">
+                <a href="https://sa-market.netlify.app/" className="left" data-aos="fade-right">
                     <div>
                         <div className="shadow"></div>
                         <img src="/todo.png" alt="" />
                     </div>
                 </a>
-                <div className="right">
+                <div className="right" data-aos="fade-left">
                     <span className="featured"><p>Featured Project</p></span>
                     <h1>MERN-STACK Todo App</h1>
                     <div className="about">
@@ -103,7 +103,7 @@ function Portfoilio() {
 
             <h1 className='h1-for-others'>Other Noteworthy Projects</h1>
             <div className={isClicked ? "others auto" : "others"}>
-                <div className="cards">
+                <div className="cards" data-aos="fade-up">
                     <h1>Integrating Algolia Search with WordPress Multisite</h1>
                     <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
                     <FolderOutlined className="file"/>
@@ -111,7 +111,7 @@ function Portfoilio() {
                     <a href="#" className="url"><Link/></a>
                 </div>
 
-                <div className="cards">
+                <div className="cards" data-aos="fade-up">
                     <h1>Integrating Algolia Search with WordPress Multisite</h1>
                     <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
                     <FolderOutlined className="file"/>
@@ -119,7 +119,7 @@ function Portfoilio() {
                     <Link className="url"/>
                 </div>
 
-                <div className="cards">
+                <div className="cards" data-aos="fade-up">
                     <h1>Integrating Algolia Search with WordPress Multisite</h1>
                     <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
                     <FolderOutlined className="file"/>
@@ -127,7 +127,7 @@ function Portfoilio() {
                     <Link className="url"/>
                 </div>
 
-                <div className="cards">
+                <div className="cards" data-aos="fade-up">
                     <h1>Integrating Algolia Search with WordPress Multisite</h1>
                     <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
                     <FolderOutlined className="file"/>
@@ -135,7 +135,7 @@ function Portfoilio() {
                     <Link className="url"/>
                 </div>
 
-                <div className="cards">
+                <div className="cards" data-aos="fade-up">
                     <h1>Integrating Algolia Search with WordPress Multisite</h1>
                     <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
                     <FolderOutlined className="file"/>
@@ -143,7 +143,7 @@ function Portfoilio() {
                     <Link className="url"/>
                 </div>
 
-                <div className="cards">
+                <div className="cards" data-aos="fade-up">
                     <h1>Integrating Algolia Search with WordPress Multisite</h1>
                     <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
                     <FolderOutlined className="file"/>
@@ -151,7 +151,7 @@ function Portfoilio() {
                     <Link className="url"/>
                 </div>
 
-                <div className="cards">
+                <div className="cards" data-aos="fade-up">
                     <h1>Integrating Algolia Search with WordPress Multisite</h1>
                     <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
                     <FolderOutlined className="file"/>
@@ -159,7 +159,7 @@ function Portfoilio() {
                     <Link className="url"/>
                 </div>
 
-                <div className="cards">
+                <div className="cards" data-aos="fade-up">
                     <h1>Integrating Algolia Search with WordPress Multisite</h1>
                     <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
                     <FolderOutlined className="file"/>
@@ -167,7 +167,7 @@ function Portfoilio() {
                     <Link className="url"/>
                 </div>
 
-                <div className="cards">
+                <div className="cards" data-aos="fade-up">
                     <h1>Integrating Algolia Search with WordPress Multisite</h1>
                     <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
                     <FolderOutlined className="file"/>
@@ -175,7 +175,7 @@ function Portfoilio() {
                     <Link className="url"/>
                 </div>
 
-                <div className="cards">
+                <div className="cards" data-aos="fade-up">
                     <h1>Integrating Algolia Search with WordPress Multisite</h1>
                     <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
                     <FolderOutlined className="file"/>
@@ -183,7 +183,7 @@ function Portfoilio() {
                     <Link className="url"/>
                 </div>
 
-                <div className="cards">
+                <div className="cards" data-aos="fade-up">
                     <h1>Integrating Algolia Search with WordPress Multisite</h1>
                     <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
                     <FolderOutlined className="file"/>
@@ -191,7 +191,7 @@ function Portfoilio() {
                     <Link className="url"/>
                 </div>
 
-                <div className="cards">
+                <div className="cards" data-aos="fade-up">
                     <h1>Integrating Algolia Search with WordPress Multisite</h1>
                     <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
                     <FolderOutlined className="file"/>

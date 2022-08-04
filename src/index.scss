@@ -133,6 +133,7 @@ main{
       height: 10%;
     }
     font-family: 'Poppins', sans-serif;
+    margin-top: 3%;
     margin-left: 5%;
     width: 20%;
     height: 10%;
@@ -703,7 +704,7 @@ nav{
       flex-direction: column;
       justify-content: center;
       padding: 2% 1%;
-      transition: all .5s linear;
+      transition: all .5s linear !important;
       position: relative;
       &:hover{
         margin-top: 4%;
@@ -757,7 +758,7 @@ nav{
     }
   }
   .auto{
-    height: auto;
+    height: 240vh;
     transition: all .5s linear !important;
   }
   .show{
@@ -786,7 +787,7 @@ nav{
   width: 80%;
   margin: auto;
   margin-top: 4%;
-  height: 70vh;
+  height: 80vh;
   h1{
     display: flex;
     justify-content: center;
