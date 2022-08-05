@@ -1,4 +1,3 @@
-import React, { useContext } from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import Aos from 'aos'
