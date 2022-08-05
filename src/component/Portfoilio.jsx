@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react'
-import { ThemeContext } from './Context'
 import Aos from 'aos'
 import "aos/dist/aos.css"
 import { FolderOutlined,GitHub,Link } from '@material-ui/icons'
@@ -10,8 +9,6 @@ function Portfoilio() {
     useEffect(()=>{
         Aos.init({duration : 3000})
       },[])
-    const theme = useContext(ThemeContext)
-    const darkMode = theme.state.darkMode
     const [isClicked, setIsClicked] = useState(false)
     return (
         <section className='portfolio' id='portfolio'>

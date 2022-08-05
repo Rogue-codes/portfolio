@@ -1,14 +1,14 @@
 import { useContext } from "react";
 import About from "./component/About";
 import Accordion from "./component/Accordion";
-import Contact from "./component/Contact";
+// import Contact from "./component/Contact";
 import { ThemeContext } from "./component/Context";
 import Experience from "./component/Experience";
 import GetInTouch from "./component/GetInTouch";
 import Home from "./component/Home";
 import Nav from "./component/Nav";
 import Portfoilio from "./component/Portfoilio";
-import Toggle from "./component/Toggle";
+// import Toggle from "./component/Toggle";
 
 
 function App() {
