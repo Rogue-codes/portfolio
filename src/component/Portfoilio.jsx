@@ -103,8 +103,8 @@ function Portfoilio() {
                     <h1>Integrating Algolia Search with WordPress Multisite</h1>
                     <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
                     <FolderOutlined className="file"/>
-                    <a href="#" className="git"><GitHub/> </a>
-                    <a href="#" className="url"><Link/></a>
+                    <a href="https://github.com/Rogue-codes" className="git"><GitHub/> </a>
+                    <a href="https://github.com/Rogue-codes" className="url"><Link/></a>
                 </div>
 
                 <div className="cards" data-aos="fade-up">
