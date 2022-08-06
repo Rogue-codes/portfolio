@@ -85,6 +85,11 @@ $headerColor:#444649;
 
 // first page
 main{
+  @media (max-width:480px) {
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
   width: 100%;
   height: 100vh;
   background: #0a192f;
@@ -108,8 +113,7 @@ main{
   }
   h1{
     @media (max-width:480px) {
-      font-size: 1.5rem;
-      // text-align: center;
+      font-size: 1.9rem;
       width: 100%;
       padding: 2%;
       margin-left: 2%;
@@ -144,7 +148,7 @@ main{
   button{
     @media (max-width:480px) {
       width: 80%;
-      height: 10%;
+      height: 10vh;
       border-radius: 5px;
     }
     font-family: 'Poppins', sans-serif;
@@ -872,7 +876,8 @@ nav{
     .cards{
       @media (max-width:480px) {
         width: 100%;
-        height: 70vh;
+        // height: 70vh;
+        height: auto;
       }
       width: 30%;
       height: 50vh;
@@ -897,6 +902,7 @@ nav{
         @media (max-width:480px) {
           font-size: 1.5rem;
           margin-top: 25%;
+          margin-left: 5%;
         }
         font-size: 1.5vw;
         line-height: 30px;
@@ -907,6 +913,7 @@ nav{
         @media (max-width:480px) {
           font-size: 1.2rem;
           margin-bottom: 15%;
+          margin-left: 5%;
         }
         font-size: 1.4vw;
         line-height: 30px;
@@ -921,6 +928,10 @@ nav{
         top: 2%;
       }
       .git{
+        @media (max-width:480px) {
+          font-size: 2rem;
+          top: 4%;
+        }
         color:black;
         font-size: 1.5rem;
         position: absolute;
@@ -933,6 +944,10 @@ nav{
 
       }
       .url{
+        @media (max-width:480px) {
+          font-size: 2rem;
+          top: 4%;
+        }
         color:black;
         font-size: 1.5rem;
         position: absolute;

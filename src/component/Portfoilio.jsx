@@ -100,48 +100,48 @@ function Portfoilio() {
             <h1 className='h1-for-others'>Other Noteworthy Projects</h1>
             <div className={isClicked ? "others auto" : "others"}>
                 <div className="cards" data-aos="fade-up">
-                    <h1>Integrating Algolia Search with WordPress Multisite</h1>
-                    <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                    <h1>EpayGoo</h1>
+                    <p>Built the website for <strong>EpayGoo</strong> an online card payment system for transportation</p>
                     <FolderOutlined className="file"/>
                     <a href="https://github.com/Rogue-codes" className="git"><GitHub/> </a>
                     <a href="https://github.com/Rogue-codes" className="url"><Link/></a>
                 </div>
 
                 <div className="cards" data-aos="fade-up">
-                    <h1>Integrating Algolia Search with WordPress Multisite</h1>
-                    <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                    <h1>Back to School</h1>
+                    <p>A simple Application built with Vanila js , HTML and CSS.. This application is aimed at helping young university under grads to calculate their GPA. </p>
                     <FolderOutlined className="file"/>
                     <GitHub className="git"/>
                     <Link className="url"/>
                 </div>
 
                 <div className="cards" data-aos="fade-up">
-                    <h1>Integrating Algolia Search with WordPress Multisite</h1>
-                    <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                    <h1>Cloudther</h1>
+                    <p>A weather Application that shows the weather condition of a place. The App Consumes the open weather API and shows weather data based on the user's location.</p>
                     <FolderOutlined className="file"/>
                     <GitHub className="git"/>
                     <Link className="url"/>
                 </div>
 
                 <div className="cards" data-aos="fade-up">
-                    <h1>Integrating Algolia Search with WordPress Multisite</h1>
-                    <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                    <h1>Orange Bank</h1>
+                    <p>Cloned the Website of Titan-Trust Bank and produced a pixel perfect replica of the original website. Project was created using React and SCSS</p>
                     <FolderOutlined className="file"/>
                     <GitHub className="git"/>
                     <Link className="url"/>
                 </div>
 
                 <div className="cards" data-aos="fade-up">
-                    <h1>Integrating Algolia Search with WordPress Multisite</h1>
-                    <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                    <h1>BlueBirdCmast</h1>
+                    <p>Built the official website of BlueBirdCmast an I.T company that provide cloudservices to various organizations and enterprises</p>
                     <FolderOutlined className="file"/>
                     <GitHub className="git"/>
                     <Link className="url"/>
                 </div>
 
                 <div className="cards" data-aos="fade-up">
-                    <h1>Integrating Algolia Search with WordPress Multisite</h1>
-                    <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                    <h1>Minnato Exchange</h1>
+                    <p>A currency converter Application Built with HTML, CSS and Vanilla Js. The Application converts value between differnt currencies with the help of data coming from free currency API </p>
                     <FolderOutlined className="file"/>
                     <GitHub className="git"/>
                     <Link className="url"/>
