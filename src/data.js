@@ -15,9 +15,6 @@ export const Data = [
         
         
         Currently, I’m focused on moving to the next stage of my career and achieving that senior-level developer status.
-
-        I'm also trying to Transition into Back End development with Node.js, Express and Mongo DB so as have a deeper dive on how Web Applications work and also to become a MERN Stack Developer.
-
         Thanks for reading 😊
         
         `,

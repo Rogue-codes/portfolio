@@ -14,7 +14,7 @@ function Home() {
         <p>Hi My Name is</p>
         <h1 data-aos="fade-right"><span>Osuji Nnamdi Daniel</span>. <br /> I build things for the web.</h1>
         <span className="shortDesc" data-aos="fade-left">
-          I’m a Front-End engineer specializing in building exceptional digital experiences. Currently, I’m focused on building accessible, Enterprise Solutions at SATH.
+          I’m a Front-End engineer specialized in building exceptional digital experiences. Currently, I’m focused on building accessible, Enterprise Solutions at SATH.
         </span>
         <button className='btn-border-drawing' data-aos="fade-up"><a href="#portfolio">View my works</a><FontAwesomeIcon icon={faArrowRight} className='icon'></FontAwesomeIcon></button>
         <Social/>
