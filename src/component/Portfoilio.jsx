@@ -70,7 +70,7 @@ function Portfoilio() {
             </div>
 
             <div className="container">
-                <a href="https://sa-market.netlify.app/" className="left" data-aos="fade-right">
+                <a href="https://atlas-air.netlify.app/" target="_blank" rel="noreferrer" className="left" data-aos="fade-right">
                     <div>
                         <div className="shadow"></div>
                         <img src="/atlas.png" alt="" />
