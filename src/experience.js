@@ -19,7 +19,8 @@ export const USA = [
         Company: 'United States of Africa',
         date: 'Dec 2021-Present',
         task:[
-            'Write modern, performant, maintainable code for a diverse array of client and internal projects',
+            "I pride in my ability to be able to quickly adapt and start working on the codebase under a short period of time",
+            'I ensured that my codes are performant, maintainable and readable for other developers in the team to be able to read and work with.',
             'Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Next, React, Craft, and Netlify',
             'Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis'
         ]

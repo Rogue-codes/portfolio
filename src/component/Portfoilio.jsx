@@ -73,25 +73,21 @@ function Portfoilio() {
                 <a href="https://sa-market.netlify.app/" className="left" data-aos="fade-right">
                     <div>
                         <div className="shadow"></div>
-                        <img src="/todo.png" alt="" />
+                        <img src="/atlas.png" alt="" />
                     </div>
                 </a>
                 <div className="right" data-aos="fade-left">
                     <span className="featured"><p>Featured Project</p></span>
-                    <h1>MERN-STACK Todo App</h1>
+                    <h1>Atlas-Air</h1>
                     <div className="about">
                         <p>                
-                            A Todo Application that helps you keep track of your daily task  in real time. 
-                            The Application helps you filter through your task based on the task that are 
-                            pending, Completed, due today, due tommorrow and passed due 
+                            A website for an Airline agency.. the purpose of this project was to test my UI skills and my ability to load data dynamically.
+                            i used some modern CSS techniques like Flex, Grid, and Positioning. 
                         </p>
                     </div>
                     <div className="lang">
                         <p>React</p>
-                        <p>ReduxToolkit</p>
-                        <p>Node</p>
-                        <p>Express</p>
-                        <p>Mongo DB</p>
+                        <p>AOS</p>
                         <p>Styled-components</p>
                     </div>
                 </div>
