@@ -96,11 +96,11 @@ function Portfoilio() {
             <h1 className='h1-for-others'>Other Noteworthy Projects</h1>
             <div className={isClicked ? "others auto" : "others"}>
                 <div className="cards" data-aos="fade-up">
-                    <h1>EpayGoo</h1>
-                    <p>Built the website for <strong>EpayGoo</strong> an online card payment system for transportation</p>
+                    <h1>payBeta</h1>
+                    <p>A Fintech website for an online  payment company</p>
                     <FolderOutlined className="file"/>
                     <a href="https://github.com/Rogue-codes" className="git"><GitHub/> </a>
-                    <a href="https://epay-goo.netlify.app/" className="url"><Link/></a>
+                    <a href="https://paybeta.netlify.app/" className="url"><Link/></a>
                 </div>
 
                 <div className="cards" data-aos="fade-up">
