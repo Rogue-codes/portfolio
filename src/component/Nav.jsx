@@ -38,7 +38,7 @@ function Nav() {
       </div>
 
       <div className="right">
-        <a href="/daniel.pdf" download><button className='button'>Resume</button></a>
+        <a href="/nnamdi_Resume.pdf" download><button className='button'>Resume</button></a>
       </div>
 
         <span className="icon">
